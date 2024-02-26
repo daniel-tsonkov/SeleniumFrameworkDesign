@@ -1,10 +1,6 @@
 package rahulshettyacademy;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class StandAloneTest
 {
     public static void main( String[] args )
     {
