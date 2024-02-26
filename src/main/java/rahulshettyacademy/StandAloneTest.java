@@ -1,9 +1,15 @@
 package rahulshettyacademy;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class StandAloneTest
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://rahulshettyacademy.com/client/");
     }
 }
