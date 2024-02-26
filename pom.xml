@@ -2,6 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <!--firstname: Milenatson, lastname: Tson, Email: testmilenatson@test.bg, tel: 1234567890, pass: 12345678A1!a -->
+
   <groupId>rahulshettyacademy</groupId>
   <artifactId>SeleniumFrameworkDesign</artifactId>
   <version>1.0-SNAPSHOT</version>
