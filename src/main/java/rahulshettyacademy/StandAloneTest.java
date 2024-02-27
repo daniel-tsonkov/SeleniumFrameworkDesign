@@ -23,11 +23,15 @@ public class StandAloneTest {
 
         List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
 
-        for (WebElement product : products) {
+       /* for (WebElement product : products) {
             System.out.println(product.getText());
-        }
+        }*/
 
-        products.stream().filter(product -> product.findElement(By.cssSelector("b")).getText().equals("ZARA COAT 3"));
+        WebElement prod = products.stream().filter(product ->
+                product.findElement(By.cssSelector("b")).getText().equals("ZARA COAT 3")).findFirst().orElse(null);
+
+        //assert prod != null;
+        System.out.println(prod.getText());
 
         System.exit(0);
     }
