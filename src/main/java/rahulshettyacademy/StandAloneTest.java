@@ -24,6 +24,8 @@ public class StandAloneTest {
         driver.findElement(By.id("userPassword")).sendKeys("12345678A1!a");
         driver.findElement(By.id("login")).click();
 
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
         List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
 
        /* for (WebElement product : products) {
@@ -37,9 +39,10 @@ public class StandAloneTest {
         System.out.println(prod.findElement(By.cssSelector(".card-body button:last-of-type")).getText());
         prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container")));
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ng-animating")));
+
+        driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
 
         System.exit(0);
     }
