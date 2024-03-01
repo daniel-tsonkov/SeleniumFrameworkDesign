@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -28,10 +27,6 @@ public class StandAloneTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
         List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
 
-       /* for (WebElement product : products) {
-            System.out.println(product.getText());
-        }*/
-
         WebElement prod = products.stream().filter(product ->
                 product.findElement(By.cssSelector("b")).getText().equals("ZARA COAT 3")).findFirst().orElse(null); //filter to finde only one product
 
@@ -40,7 +35,8 @@ public class StandAloneTest {
         prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container")));
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ng-animating")));
+        //wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ng-animating"))); //this is too slow
+        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating")))); //this is very fast use it!
 
         driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
 
