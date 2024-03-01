@@ -35,7 +35,7 @@ public class StandAloneTest {
         prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container")));
-        //wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ng-animating"))); //this is too slow
+        //wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ng-animating"))); //this is too slow!
         wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating")))); //this is very fast use it!
 
         driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
