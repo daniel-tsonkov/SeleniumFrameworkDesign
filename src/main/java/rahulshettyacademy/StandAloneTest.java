@@ -40,7 +40,10 @@ public class StandAloneTest {
         //wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ng-animating"))); //this is too slow!
         wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating")))); //this is very fast use it!
 
-        driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
+        driver.findElement(By.cssSelector("[routerlink*='cart']")).click();//test
+
+        List<WebElement> cartProducts = driver.findElements(By.cssSelector(".cartSection h3"));
+        Boolean match = cartProducts.stream().anyMatch(cartProduct -> cartProduct.getText().equalsIgnoreCase(productName));
 
         List<WebElement> cartProducts = driver.findElements(By.cssSelector(".cartSelection h3"));
         Boolean match = cartProducts.stream().anyMatch(cartProduct -> cartProduct.getText().equalsIgnoreCase(productName));
