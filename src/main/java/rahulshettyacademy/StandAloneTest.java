@@ -13,6 +13,7 @@ import java.util.List;
 
 public class StandAloneTest {
     public static void main(String[] args) {
+        String productName = "ZARA COAT 3";
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -28,7 +29,7 @@ public class StandAloneTest {
         List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
 
         WebElement prod = products.stream().filter(product ->
-                product.findElement(By.cssSelector("b")).getText().equals("ZARA COAT 3")).findFirst().orElse(null); //filter to finde only one product
+                product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null); //filter to finde only one product
 
         assert prod != null;
         System.out.println(prod.findElement(By.cssSelector(".card-body button:last-of-type")).getText());
@@ -39,6 +40,9 @@ public class StandAloneTest {
         wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating")))); //this is very fast use it!
 
         driver.findElement(By.cssSelector("[routerlink*='cart']")).click();//test
+
+        List<WebElement> cartProducts = driver.findElements(By.cssSelector(".cartSection h3"));
+        Boolean match = cartProducts.stream().anyMatch(cartProduct -> cartProduct.getText().equalsIgnoreCase(productName));
 
         System.exit(0);
     }
