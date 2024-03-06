@@ -32,8 +32,6 @@ public class StandAloneTest {
         WebElement prod = products.stream().filter(product ->
                 product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null); //filter to finde only one product
 
-        //assert prod != null;
-        //System.out.println(prod.findElement(By.cssSelector(".card-body button:last-of-type")).getText());
         assert prod != null;
         prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
 
