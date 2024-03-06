@@ -32,12 +32,12 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-    <dependency>
+    <!--<dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
       <version>7.9.0</version>
       <scope>test</scope>
-    </dependency>
+    </dependency>-->
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
@@ -46,6 +46,15 @@
     </dependency>
   </dependencies>
     <build>
-
+      <plugins>
+        <!--<plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <configuration>
+            <source>8</source>
+            <target>8</target>
+          </configuration>
+        </plugin>-->
+      </plugins>
     </build>
 </project>

@@ -32,19 +32,22 @@ public class StandAloneTest {
         WebElement prod = products.stream().filter(product ->
                 product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null); //filter to finde only one product
 
-        assert prod != null;
-        System.out.println(prod.findElement(By.cssSelector(".card-body button:last-of-type")).getText());
+        //assert prod != null;
+        //System.out.println(prod.findElement(By.cssSelector(".card-body button:last-of-type")).getText());
         prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container")));
         //wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ng-animating"))); //this is too slow!
         wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating")))); //this is very fast use it!
 
-        driver.findElement(By.cssSelector("[routerlink*='cart']")).click();//test
+        driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
 
-        List<WebElement> cartProducts = driver.findElements(By.cssSelector(".cartSelection h3"));
-        Boolean match = cartProducts.stream().anyMatch(cartProduct -> cartProduct.getText().equalsIgnoreCase(productName));
+        List<WebElement> cartProducts = driver.findElements(By.cssSelector(".cartSection h3"));
+
+        boolean match = cartProducts.stream().anyMatch(cartProduct -> cartProduct.getText().equalsIgnoreCase(productName));
         Assert.assertTrue(match);
+
+        driver.findElement(By.cssSelector(".totalRow button")).click();
 
         System.exit(0);
     }
