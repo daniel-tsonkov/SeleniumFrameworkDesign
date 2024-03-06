@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.sql.Driver;
 import java.time.Duration;
 import java.util.List;
 
@@ -53,6 +54,7 @@ public class StandAloneTest {
         a.sendKeys(driver.findElement(By.cssSelector("[placeholder='Select Country']")), "Bulgaria").build().perform();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".ta-results")));
         driver.findElement(By.cssSelector(".ta-item:nth-of-type(1)")).click();
+        driver.findElement(By.cssSelector(".action__submit")).click();
 
         System.exit(0);
     }
