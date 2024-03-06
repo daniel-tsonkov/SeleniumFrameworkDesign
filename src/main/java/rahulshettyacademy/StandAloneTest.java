@@ -51,6 +51,8 @@ public class StandAloneTest {
 
         Actions a = new Actions(driver);
         a.sendKeys(driver.findElement(By.cssSelector("[placeholder='Select Country']")), "Bulgaria").build().perform();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".ta-results")));
+        driver.findElement(By.cssSelector(".ta-item:nth-of-type(1)")).click();
 
         System.exit(0);
     }
