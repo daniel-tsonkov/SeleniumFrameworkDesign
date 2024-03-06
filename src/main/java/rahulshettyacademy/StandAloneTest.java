@@ -55,6 +55,10 @@ public class StandAloneTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".ta-results")));
         driver.findElement(By.cssSelector(".ta-item:nth-of-type(1)")).click();
         driver.findElement(By.cssSelector(".action__submit")).click();
+        String confirMessage = driver.findElement(By.cssSelector(".hero-primary")).getText();
+        //Assert.assertEquals(confirMessage,"THANKYOU FOR THE ORDER.");//one way
+        Assert.assertTrue(confirMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+        driver.close();
 
         System.exit(0);
     }
