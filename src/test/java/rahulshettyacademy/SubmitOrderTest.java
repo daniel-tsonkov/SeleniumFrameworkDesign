@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import rahulshettyacademy.pageobjects.LandingPage;
+import rahulshettyacademy.pageobjects.ProductCatalogue;
 
 import java.time.Duration;
 import java.util.List;
@@ -25,10 +26,8 @@ public class SubmitOrderTest {
         LandingPage landingPage = new LandingPage(driver);
         landingPage.goToURL();
         landingPage.loginApplication("testmilenatson@test.bg", "12345678A1!a");
-
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
-        List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
+        ProductCatalogue productCatalogue = new ProductCatalogue(driver);
+        List<WebElement>products = productCatalogue.getProductList();
 
         WebElement prod = products.stream().filter(product ->
                 product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null); //filter to finde only one product

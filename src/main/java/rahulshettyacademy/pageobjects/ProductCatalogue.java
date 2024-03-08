@@ -1,6 +1,7 @@
 package rahulshettyacademy.pageobjects;
 
 import AbstractComponents.AbstractComponent;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,6 +13,7 @@ public class ProductCatalogue extends AbstractComponent {
     WebDriver driver;
 
     public ProductCatalogue(WebDriver driver) {
+        super(driver);
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -20,5 +22,10 @@ public class ProductCatalogue extends AbstractComponent {
     //PageFactory
     @FindBy(css = ".mb-3")
     List<WebElement> products;
+    By productsBy = By.cssSelector(".mb-3");
 
+    public List<WebElement> getProductList() {
+        waitForElementToApear(productsBy);
+        return products;
+    }
 }
