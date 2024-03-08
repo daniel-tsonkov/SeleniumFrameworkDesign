@@ -15,6 +15,7 @@ public class LandingPage {
     }
     //WebElement userEmail = driver.findElement(By.id("userEmail"));
 
+    //PageFactory
     @FindBy(id = "userWmail")
     WebElement getUserEmail;
 
@@ -23,4 +24,9 @@ public class LandingPage {
 
     @FindBy(id = "login")
     WebElement submit;
+
+    //ActionMethods
+    public void loginApplication() {
+
+    }
 }
