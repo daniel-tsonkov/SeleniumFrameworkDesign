@@ -14,7 +14,7 @@ import rahulshettyacademy.pageobjects.LandingPage;
 import java.time.Duration;
 import java.util.List;
 
-public class StandAloneTest {
+public class StandAloneTest_OLD {
     public static void main(String[] args) {
         String productName = "ZARA COAT 3";
         WebDriverManager.chromedriver().setup();
