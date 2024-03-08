@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class ProductCatalogue {
     WebDriver driver;
 
@@ -12,26 +14,11 @@ public class ProductCatalogue {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-    //WebElement userEmail = driver.findElement(By.id("userEmail"));
+    //List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
 
     //PageFactory
-    @FindBy(id = "userEmail")
-    WebElement userEmail;
+    @FindBy(css = ".mb-3")
+    List<WebElement> products;
 
-    @FindBy(id = "userPassword")
-    WebElement passwordElement;
 
-    @FindBy(id = "login")
-    WebElement submit;
-
-    //ActionMethods
-    public void loginApplication(String email, String password) {
-        userEmail.sendKeys(email);
-        passwordElement.sendKeys(password);
-        submit.click();
-    }
-
-    public void goToURL(){
-        driver.get("https://rahulshettyacademy.com/client/");
-    }
 }
