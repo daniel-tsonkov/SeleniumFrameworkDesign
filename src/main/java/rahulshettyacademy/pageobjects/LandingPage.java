@@ -1,6 +1,5 @@
 package rahulshettyacademy.pageobjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,17 +15,19 @@ public class LandingPage {
     //WebElement userEmail = driver.findElement(By.id("userEmail"));
 
     //PageFactory
-    @FindBy(id = "userWmail")
-    WebElement getUserEmail;
+    @FindBy(id = "userEmail")
+    WebElement userEmail;
 
     @FindBy(id = "userPassword")
-    WebElement password;
+    WebElement passwordElement;
 
     @FindBy(id = "login")
     WebElement submit;
 
     //ActionMethods
-    public void loginApplication() {
-
+    public void loginApplication(String email, String password) {
+        userEmail.sendKeys(email);
+        passwordElement.sendKeys(password);
+        submit.click();
     }
 }

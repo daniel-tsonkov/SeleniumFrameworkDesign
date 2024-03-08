@@ -23,9 +23,7 @@ public class SubmitOrderTest {
         driver.get("https://rahulshettyacademy.com/client/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         LandingPage landingPage = new LandingPage(driver);
-        driver.findElement(By.id("userEmail")).sendKeys("testmilenatson@test.bg");
-        driver.findElement(By.id("userPassword")).sendKeys("12345678A1!a");
-        driver.findElement(By.id("login")).click();
+        landingPage.loginApplication("testmilenatson@test.bg", "12345678A1!a");
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
@@ -58,6 +56,7 @@ public class SubmitOrderTest {
         String confirMessage = driver.findElement(By.cssSelector(".hero-primary")).getText();
         //Assert.assertEquals(confirMessage,"THANKYOU FOR THE ORDER.");//one way
         Assert.assertTrue(confirMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));//second way
+
         driver.close();
 
         System.exit(0);
