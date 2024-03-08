@@ -29,8 +29,7 @@ public class SubmitOrderTest {
         ProductCatalogue productCatalogue = new ProductCatalogue(driver);
         List<WebElement>products = productCatalogue.getProductList();
 
-        WebElement prod = products.stream().filter(product ->
-                product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null); //filter to finde only one product
+
 
         assert prod != null;
         prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
