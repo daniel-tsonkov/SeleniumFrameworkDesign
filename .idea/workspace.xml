@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="08032024">
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="08032024" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +51,7 @@
       <recent name="rahulshettyacademy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rahulshettyacademy.pageobjects" />
       <recent name="rahulshettyacademy" />
     </key>
   </component>
@@ -304,7 +302,49 @@
       <option name="project" value="LOCAL" />
       <updated>1709889878254</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="08032024">
+      <created>1709890228397</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1709890228397</updated>
+    </task>
+    <task id="LOCAL-00034" summary="08032024">
+      <created>1709892524890</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1709892524890</updated>
+    </task>
+    <task id="LOCAL-00035" summary="08032024">
+      <created>1709893104152</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1709893104152</updated>
+    </task>
+    <task id="LOCAL-00036" summary="08032024">
+      <created>1709894454701</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1709894454701</updated>
+    </task>
+    <task id="LOCAL-00037" summary="08032024">
+      <created>1709895144963</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1709895144963</updated>
+    </task>
+    <task id="LOCAL-00038" summary="08032024">
+      <created>1709896087573</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1709896087573</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
