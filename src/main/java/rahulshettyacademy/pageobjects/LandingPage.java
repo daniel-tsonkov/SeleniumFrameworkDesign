@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class LandingPage {
     WebDriver driver;
 
-    public LandingPage() {
+    public LandingPage(WebDriver driver) {
         this.driver = driver;
     }
     WebElement userEmail = driver.findElement(By.id("userEmail"));
