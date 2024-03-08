@@ -27,16 +27,8 @@ public class SubmitOrderTest {
         landingPage.goToURL();
         landingPage.loginApplication("testmilenatson@test.bg", "12345678A1!a");
         ProductCatalogue productCatalogue = new ProductCatalogue(driver);
-        List<WebElement>products = productCatalogue.getProductList();
-
-
-
-        assert prod != null;
-        prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container")));
-        //wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ng-animating"))); //this is too slow!
-        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating")))); //this is very fast use it!
+        List<WebElement> products = productCatalogue.getProductList();
+        productCatalogue.addProductToCart(productName);
 
         driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
 
