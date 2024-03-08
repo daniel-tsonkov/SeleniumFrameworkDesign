@@ -5,10 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LandingPage {
+public class ProductCatalogue {
     WebDriver driver;
 
-    public LandingPage(WebDriver driver) {
+    public ProductCatalogue(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
