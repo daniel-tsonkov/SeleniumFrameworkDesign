@@ -21,6 +21,7 @@ public class StandAloneTest {
         driver.manage().window().maximize();
         driver.get("https://rahulshettyacademy.com/client/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        LandingPage landingPage = new LandingPage();
         driver.findElement(By.id("userEmail")).sendKeys("testmilenatson@test.bg");
         driver.findElement(By.id("userPassword")).sendKeys("12345678A1!a");
         driver.findElement(By.id("login")).click();
