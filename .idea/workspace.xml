@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="11032024">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/ConfirmationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/CardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/CardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/CheckoutPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -399,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710168941868</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="11032024">
+      <created>1710170062041</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1710170062041</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

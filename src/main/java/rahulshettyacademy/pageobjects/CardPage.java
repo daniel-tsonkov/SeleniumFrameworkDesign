@@ -30,6 +30,6 @@ public class CardPage extends AbstractComponent {
 
     public CheckoutPage goToCheckout() {
         checkoutEle.click();
-        return new CheckoutPage();
+        return new CheckoutPage(driver);
     }
 }
