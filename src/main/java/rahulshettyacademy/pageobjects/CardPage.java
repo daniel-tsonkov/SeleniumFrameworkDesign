@@ -28,7 +28,8 @@ public class CardPage extends AbstractComponent {
         return match;
     }
 
-    public void goToCheckout() {
+    public CheckoutPage goToCheckout() {
         checkoutEle.click();
+        return new CheckoutPage();
     }
 }

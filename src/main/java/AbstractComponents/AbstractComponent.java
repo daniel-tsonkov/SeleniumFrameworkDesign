@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import rahulshettyacademy.pageobjects.CardPage;
 
 import java.time.Duration;
 
@@ -26,8 +27,10 @@ public class AbstractComponent {
         wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
     }
 
-    public void goToCartPage() {
+    public CardPage goToCartPage() {
         cartHeader.click();
+        CardPage cardPage = new CardPage(driver);
+        return cardPage;
     }
 
     public void waitForElementToDisappear(WebElement ele) {

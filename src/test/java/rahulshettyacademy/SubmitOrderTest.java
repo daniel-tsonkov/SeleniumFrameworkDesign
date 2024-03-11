@@ -30,9 +30,7 @@ public class SubmitOrderTest {
         List<WebElement> products = productCatalogue.getProductList();
         productCatalogue.addProductToCart(productName);
 
-        productCatalogue.goToCartPage();
-        //driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
-        CardPage cardPage = new CardPage(driver);
+        CardPage cardPage = productCatalogue.goToCartPage();
         Boolean match = cardPage.VerifyProductDisplay(productName);
         //List<WebElement> cartProducts = driver.findElements(By.cssSelector(".cartSection h3"));
         //Boolean match = cartProducts.stream().anyMatch(cartProduct -> cartProduct.getText().equalsIgnoreCase(productName));
