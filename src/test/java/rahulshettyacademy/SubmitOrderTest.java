@@ -26,8 +26,7 @@ public class SubmitOrderTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         LandingPage landingPage = new LandingPage(driver);
         landingPage.goToURL();
-        landingPage.loginApplication("testmilenatson@test.bg", "12345678A1!a");
-        ProductCatalogue productCatalogue = new ProductCatalogue(driver);
+        ProductCatalogue productCatalogue = landingPage.loginApplication("testmilenatson@test.bg", "12345678A1!a");
         List<WebElement> products = productCatalogue.getProductList();
         productCatalogue.addProductToCart(productName);
 
