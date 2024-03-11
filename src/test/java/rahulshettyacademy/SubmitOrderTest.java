@@ -30,7 +30,8 @@ public class SubmitOrderTest {
         List<WebElement> products = productCatalogue.getProductList();
         productCatalogue.addProductToCart(productName);
 
-        driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
+        productCatalogue.goToCartPage();
+        //driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
 
         List<WebElement> cartProducts = driver.findElements(By.cssSelector(".cartSection h3"));
 
