@@ -15,11 +15,20 @@ public class CardPage extends AbstractComponent {
     WebElement checkoutEle;
 
     @FindBy(css = ".cartSelection h3")
-    private List<WebElement> productTitles;
+    private List<WebElement> cartProducts;
 
     public CardPage(WebDriver driver) {
         super(driver);
         this.driver = driver;
         PageFactory.initElements(driver, this);
+    }
+
+    public Boolean VerifyProductDisplay(String productName) {
+        Boolean match = cartProducts.stream().anyMatch(product -> product.getText().equalsIgnoreCase(productName));
+        return match;
+    }
+
+    public void goToCheckout() {
+        checkoutEle.click();
     }
 }
