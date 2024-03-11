@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="08032024">
-      <change beforePath="$PROJECT_DIR$/src/main/java/AbstractComponents/AbstractComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AbstractComponents/AbstractComponent.java" afterDir="false" />
+    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="11032024">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/CardPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710166603529</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="11032024">
+      <created>1710166994559</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1710166994559</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -368,7 +375,8 @@
     <MESSAGE value="01032024" />
     <MESSAGE value="06032024" />
     <MESSAGE value="08032024" />
-    <option name="LAST_COMMIT_MESSAGE" value="08032024" />
+    <MESSAGE value="11032024" />
+    <option name="LAST_COMMIT_MESSAGE" value="11032024" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
