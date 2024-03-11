@@ -35,6 +35,6 @@ public class CheckoutPage extends AbstractComponent {
 
     public ConfirmationPage submitOrder() {
         submit.click();
-        return new ConfirmationPage();
+        return new ConfirmationPage(driver);
     }
 }
