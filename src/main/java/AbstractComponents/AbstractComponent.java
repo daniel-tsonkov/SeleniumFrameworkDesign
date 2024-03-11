@@ -19,6 +19,10 @@ public class AbstractComponent {
         wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
     }
 
+    public void goToCartPage() {
+
+    }
+
     public void waitForElementToDisappear(WebElement ele) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.invisibilityOf(ele));

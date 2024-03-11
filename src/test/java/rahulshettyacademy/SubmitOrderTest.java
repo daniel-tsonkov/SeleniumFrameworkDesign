@@ -34,7 +34,7 @@ public class SubmitOrderTest {
 
         List<WebElement> cartProducts = driver.findElements(By.cssSelector(".cartSection h3"));
 
-        boolean match = cartProducts.stream().anyMatch(cartProduct -> cartProduct.getText().equalsIgnoreCase(productName));
+        Boolean match = cartProducts.stream().anyMatch(cartProduct -> cartProduct.getText().equalsIgnoreCase(productName));
         Assert.assertTrue(match);
 
         driver.findElement(By.cssSelector(".totalRow button")).click();
