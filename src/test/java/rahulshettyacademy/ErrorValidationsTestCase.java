@@ -8,8 +8,8 @@ import rahulshettyacademy.pageobjects.ProductCatalogue;
 
 public class ErrorValidationsTestCase extends BaseTest {
     
-    @Test
-    public void submitOrder() {
+    @Test(groups = {"ErrorHandling"})
+    public void LoginErrorValidation() {
         landingPage.loginApplication("testmilenatsoni@test.bg", "12345678A1!ai");
 
         String errorMessage = landingPage.getErrorMessage();
