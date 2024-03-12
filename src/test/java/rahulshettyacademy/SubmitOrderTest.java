@@ -6,22 +6,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 import rahulshettyacademy.pageobjects.*;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
-public class SubmitOrderTest {
-    public static void main(String[] args) throws InterruptedException{
+public class SubmitOrderTest extends BaseTest{
+    //public static void main(String[] args) throws InterruptedException{
+    @Test
+    public void submitOrder() throws InterruptedException, IOException {
         String productName = "ZARA COAT 3";
-       /* WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().window().maximize();*/
-        BaseTest.initializeDriver();
+        LandingPage landingPage = launchApplication();
 
-        LandingPage landingPage = new LandingPage(driver);
-        landingPage.goToURL();
         ProductCatalogue productCatalogue = landingPage.loginApplication("testmilenatson@test.bg", "12345678A1!a");
         List<WebElement> products = productCatalogue.getProductList();
         productCatalogue.addProductToCart(productName);
@@ -37,7 +35,5 @@ public class SubmitOrderTest {
         Assert.assertTrue(confirMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));//second way
 
         driver.close();
-
-        System.exit(0);
     }
 }
