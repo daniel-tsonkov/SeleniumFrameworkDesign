@@ -3,6 +3,7 @@ package TestComponents;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,15 +11,29 @@ import java.time.Duration;
 import java.util.Properties;
 
 public class BaseTest {
+    public WebDriver driver;
+
     public void initializeDriver() throws IOException {
         Properties prop = new Properties();
-        FileInputStream fis = new FileInputStream("src/main/java/rahulshettyacademy/recources/GlobalData.properties");
+        FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "//src//main//java//rahulshettyacademy//recources//GlobalData.properties");
         prop.load(fis);
         String browserName = prop.getProperty("browser");
 
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
+        if (browserName.equalsIgnoreCase("chrome")) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+        } else if (browserName.equalsIgnoreCase("firefox")) {
+            System.out.println("firefox");
+        } else if (browserName.equalsIgnoreCase("edge")) {
+            System.setProperty("webdriver.edge.driver", "edge.exe");
+            driver = new EdgeDriver();
+        }
+
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
+    }
+
+    public void launchApplication() {
+
     }
 }
