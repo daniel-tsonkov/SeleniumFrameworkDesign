@@ -11,7 +11,7 @@ import java.time.Duration;
 import java.util.List;
 
 public class SubmitOrderTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException{
         String productName = "ZARA COAT 3";
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
@@ -24,10 +24,10 @@ public class SubmitOrderTest {
         List<WebElement> products = productCatalogue.getProductList();
         productCatalogue.addProductToCart(productName);
 
-        CardPage cardPage = productCatalogue.goToCartPage();
-        Boolean match = cardPage.VerifyProductDisplay(productName);
+        CardPage cartPage = productCatalogue.goToCartPage();
+        Boolean match = cartPage.VerifyProductDisplay(productName);
         Assert.assertTrue(match);
-        CheckoutPage checkoutPage = cardPage.goToCheckout();
+        CheckoutPage checkoutPage = cartPage.goToCheckout();
         checkoutPage.selectCountry("bulgaria");
         ConfirmationPage confirmationPage = checkoutPage.submitOrder();
 
