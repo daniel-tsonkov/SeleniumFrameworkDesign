@@ -19,7 +19,8 @@ public class AbstractComponent {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(css = ".mb-3")
+    //@FindBy(css = ".mb-3")
+    @FindBy(css = "[routerlink*='cart']")
     WebElement cartHeader;
 
     public void waitForElementToApear(By findBy) {
