@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="12032024">
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/LoginTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/ErrorValidationsTestCase.java" afterDir="false" />
-    </list>
+    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="12032024" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +61,17 @@
       <recent name="rahulshettyacademy.pageobjects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ErrorValidationsTestCase">
+  <component name="RunManager" selected="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testng.xml">
+    <configuration name="C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFrameworkDesign" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ErrorValidationsTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFrameworkDesign" />
       <extension name="coverage">
@@ -121,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testng.xml" />
         <item itemvalue="TestNG.ErrorValidationsTestCase" />
         <item itemvalue="TestNG.ErrorValidationsTestCase.submitOrder" />
         <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
@@ -144,14 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708949988331</updated>
-    </task>
-    <task id="LOCAL-00013" summary="01032024">
-      <option name="closed" value="true" />
-      <created>1709305351675</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1709305351675</updated>
     </task>
     <task id="LOCAL-00014" summary="01032024">
       <option name="closed" value="true" />
@@ -491,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710238843409</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="12032024">
+      <created>1710240616086</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1710240616086</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
