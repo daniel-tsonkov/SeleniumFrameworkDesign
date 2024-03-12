@@ -26,6 +26,7 @@ public class SubmitOrderTest extends BaseTest{
 
     @Test(dependsOnMethods = {"submitOrder"})
     public void orderHistoryTest() {
+        ProductCatalogue productCatalogue = landingPage.loginApplication("testmilenatson@test.bg", "12345678A1!a");
 
     }
 }
