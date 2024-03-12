@@ -14,8 +14,8 @@ public class OrderPage extends AbstractComponent {
     @FindBy(css = ".totalRow button")
     WebElement checkoutEle;
 
-    @FindBy(css = ".cartSection h3")
-    private List<WebElement> cartProducts;
+    @FindBy(css = ".tr td:nth-child(3)")
+    private List<WebElement> productNames;
 
     public OrderPage(WebDriver driver) {
         super(driver);
@@ -23,13 +23,9 @@ public class OrderPage extends AbstractComponent {
         PageFactory.initElements(driver, this);
     }
 
-    public Boolean VerifyProductDisplay(String productName) {
-        Boolean match = cartProducts.stream().anyMatch(product -> product.getText().equalsIgnoreCase(productName));
+    public Boolean VerifyOrderDisplay(String productName) {
+        Boolean match = productNames.stream().anyMatch(product -> product.getText().equalsIgnoreCase(productName));
         return match;
     }
 
-    public CheckoutPage goToCheckout() {
-        checkoutEle.click();
-        return new CheckoutPage(driver);
-    }
 }
