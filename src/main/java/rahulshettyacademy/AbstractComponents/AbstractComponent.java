@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import rahulshettyacademy.AbstractComponents.pageobjects.CardPage;
+import rahulshettyacademy.pageobjects.CardPage;
 
 import java.time.Duration;
 

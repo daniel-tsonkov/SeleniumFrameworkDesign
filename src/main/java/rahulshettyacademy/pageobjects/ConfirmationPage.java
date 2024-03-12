@@ -1,4 +1,4 @@
-package rahulshettyacademy.AbstractComponents.pageobjects;
+package rahulshettyacademy.pageobjects;
 
 import rahulshettyacademy.AbstractComponents.AbstractComponent;
 import org.openqa.selenium.WebDriver;
