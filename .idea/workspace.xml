@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="12032024">
       <change beforePath="$PROJECT_DIR$/src/test/java/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestComponents/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708949988331</updated>
-    </task>
-    <task id="LOCAL-00005" summary="26022024">
-      <created>1708954990470</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1708954990470</updated>
     </task>
     <task id="LOCAL-00006" summary="26022024">
       <created>1708955290753</created>
@@ -427,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710232409988</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="12032024">
+      <created>1710232956775</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1710232956775</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
