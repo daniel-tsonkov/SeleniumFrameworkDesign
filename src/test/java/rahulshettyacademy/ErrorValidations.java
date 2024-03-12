@@ -17,19 +17,11 @@ public class ErrorValidations extends BaseTest{
     @Test
     public void submitOrder() throws InterruptedException, IOException {
         String productName = "ZARA COAT 3";
-        ProductCatalogue productCatalogue = landingPage.loginApplication("testmilenatson@test.bg", "12345678A1!a");
-
-        List<WebElement> products = productCatalogue.getProductList();
-        productCatalogue.addProductToCart(productName);
-
-        CardPage cartPage = productCatalogue.goToCartPage();
-        Boolean match = cartPage.VerifyProductDisplay(productName);
-        Assert.assertTrue(match);
-        CheckoutPage checkoutPage = cartPage.goToCheckout();
-        checkoutPage.selectCountry("bulgaria");
-        ConfirmationPage confirmationPage = checkoutPage.submitOrder();
-
-        String confirMessage = confirmationPage.getConfirmatonMessage();
-        Assert.assertTrue(confirMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));//second way
+        ProductCatalogue productCatalogue = landingPage.loginApplication("testmilenatsoni@test.bg", "12345678A1!ai");
+        div[aria-label='Incorrect email or password.']
+        id attribute is not available for this element
+        name attribute is not available for this element
+        div[aria-label='Incorrect email or password.']
+        div[aria-label='Incorrect email or password.']
     }
 }
