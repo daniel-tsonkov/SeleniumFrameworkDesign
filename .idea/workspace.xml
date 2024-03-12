@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="11032024">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestComponents/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/AbstractComponents/AbstractComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/AbstractComponents/AbstractComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/AbstractComponents/pageobjects/CardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/CardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/AbstractComponents/pageobjects/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/AbstractComponents/pageobjects/ConfirmationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/ConfirmationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/AbstractComponents/pageobjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/AbstractComponents/pageobjects/ProductCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/ProductCatalogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/StandAloneTest_OLD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/StandAloneTest_OLD.java" afterDir="false" />
+    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="12032024">
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestComponents/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,13 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708949988331</updated>
-    </task>
-    <task id="LOCAL-00004" summary="26022024">
-      <created>1708954500502</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1708954500502</updated>
     </task>
     <task id="LOCAL-00005" summary="26022024">
       <created>1708954990470</created>
@@ -435,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710231875882</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="12032024">
+      <created>1710232409987</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1710232409988</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -444,7 +436,8 @@
     <MESSAGE value="06032024" />
     <MESSAGE value="08032024" />
     <MESSAGE value="11032024" />
-    <option name="LAST_COMMIT_MESSAGE" value="11032024" />
+    <MESSAGE value="12032024" />
+    <option name="LAST_COMMIT_MESSAGE" value="12032024" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
