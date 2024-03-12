@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="12032024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/ErrorValidations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/ErrorValidations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/ErrorValidations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/ErrorValidationsTestLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +61,8 @@
       <recent name="rahulshettyacademy.pageobjects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ErrorValidations.submitOrder">
-    <configuration name="ErrorValidations.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginTestCase">
+    <configuration name="LoginTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFrameworkDesign" />
       <extension name="coverage">
         <pattern>
@@ -72,7 +71,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rahulshettyacademy" />
-      <option name="MAIN_CLASS_NAME" value="rahulshettyacademy.ErrorValidations" />
+      <option name="MAIN_CLASS_NAME" value="rahulshettyacademy.LoginTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTestCase.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFrameworkDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rahulshettyacademy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rahulshettyacademy" />
+      <option name="MAIN_CLASS_NAME" value="rahulshettyacademy.LoginTestCase" />
       <option name="METHOD_NAME" value="submitOrder" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -101,7 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ErrorValidations.submitOrder" />
+        <item itemvalue="TestNG.LoginTestCase" />
+        <item itemvalue="TestNG.LoginTestCase.submitOrder" />
         <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
       </list>
     </recent_temporary>
@@ -123,14 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708949988331</updated>
-    </task>
-    <task id="LOCAL-00011" summary="26022024">
-      <option name="closed" value="true" />
-      <created>1709303979055</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1709303979055</updated>
     </task>
     <task id="LOCAL-00012" summary="01032024">
       <option name="closed" value="true" />
@@ -472,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710237736462</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="12032024">
+      <created>1710238260494</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1710238260494</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
