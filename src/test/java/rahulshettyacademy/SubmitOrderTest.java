@@ -13,7 +13,7 @@ public class SubmitOrderTest extends BaseTest {
 
         productCatalogue.addProductToCart(productName);
 
-        CardPage cartPage = productCatalogue.goToCartPage();
+        CartPage cartPage = productCatalogue.goToCartPage();
         Boolean match = cartPage.VerifyProductDisplay(productName);
         Assert.assertTrue(match);
         CheckoutPage checkoutPage = cartPage.goToCheckout();

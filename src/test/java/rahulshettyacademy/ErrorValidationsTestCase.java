@@ -1,10 +1,9 @@
 package rahulshettyacademy;
 
 import TestComponents.BaseTest;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import rahulshettyacademy.pageobjects.CardPage;
+import rahulshettyacademy.pageobjects.CartPage;
 import rahulshettyacademy.pageobjects.ProductCatalogue;
 
 public class ErrorValidationsTestCase extends BaseTest {
@@ -24,7 +23,7 @@ public class ErrorValidationsTestCase extends BaseTest {
 
         productCatalogue.addProductToCart(productName);
 
-        CardPage cartPage = productCatalogue.goToCartPage();
+        CartPage cartPage = productCatalogue.goToCartPage();
         Boolean match = cartPage.VerifyProductDisplay("ZARA COAT 33");
         Assert.assertFalse(match);
     }

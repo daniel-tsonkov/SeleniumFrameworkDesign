@@ -14,7 +14,7 @@ public class OrderPage extends AbstractComponent {
     @FindBy(css = ".totalRow button")
     WebElement checkoutEle;
 
-    @FindBy(css = ".tr td:nth-child(3)")
+    @FindBy(css = "tr td:nth-child(3)")
     private List<WebElement> productNames;
 
     public OrderPage(WebDriver driver) {
