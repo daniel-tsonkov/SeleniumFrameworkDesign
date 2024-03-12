@@ -1,19 +1,18 @@
 package rahulshettyacademy;
 
 import TestComponents.BaseTest;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import rahulshettyacademy.pageobjects.*;
+import rahulshettyacademy.pageobjects.CardPage;
+import rahulshettyacademy.pageobjects.CheckoutPage;
+import rahulshettyacademy.pageobjects.ConfirmationPage;
+import rahulshettyacademy.pageobjects.ProductCatalogue;
 
 import java.io.IOException;
-import java.time.Duration;
 import java.util.List;
 
-public class SubmitOrderTest extends BaseTest{
+public class ErrorValidations extends BaseTest{
     //public static void main(String[] args) throws InterruptedException{
     @Test
     public void submitOrder() throws InterruptedException, IOException {
