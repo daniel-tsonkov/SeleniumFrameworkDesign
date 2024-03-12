@@ -62,7 +62,25 @@
       <recent name="rahulshettyacademy.pageobjects" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.ErrorValidations.submitOrder">
+    <configuration name="ErrorValidations.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFrameworkDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rahulshettyacademy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rahulshettyacademy" />
+      <option name="MAIN_CLASS_NAME" value="rahulshettyacademy.ErrorValidations" />
+      <option name="METHOD_NAME" value="submitOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubmitOrderTest.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFrameworkDesign" />
       <extension name="coverage">
@@ -83,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ErrorValidations.submitOrder" />
         <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
       </list>
     </recent_temporary>
@@ -104,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708949988331</updated>
-    </task>
-    <task id="LOCAL-00010" summary="26022024">
-      <created>1709021593874</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1709021593874</updated>
     </task>
     <task id="LOCAL-00011" summary="26022024">
       <option name="closed" value="true" />
@@ -453,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710236172794</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="12032024">
+      <created>1710237736462</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1710237736462</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

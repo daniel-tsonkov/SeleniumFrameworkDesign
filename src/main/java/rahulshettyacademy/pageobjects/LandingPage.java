@@ -38,9 +38,9 @@ public class LandingPage extends AbstractComponent {
         return productCatalogue;
     }
 
-    public void getErrorMessage() {
+    public String getErrorMessage() {
         waitForWebElementToApear(errorMessage);
-        errorMessage.getText();
+        return errorMessage.getText();
     }
 
     public void goToURL(){
