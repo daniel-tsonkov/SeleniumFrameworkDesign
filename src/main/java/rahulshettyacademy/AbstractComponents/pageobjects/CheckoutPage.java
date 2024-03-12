@@ -1,6 +1,6 @@
-package rahulshettyacademy.pageobjects;
+package rahulshettyacademy.AbstractComponents.pageobjects;
 
-import AbstractComponents.AbstractComponent;
+import rahulshettyacademy.AbstractComponents.AbstractComponent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
