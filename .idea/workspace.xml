@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="12032024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/AbstractComponents/AbstractComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/AbstractComponents/AbstractComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/CardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/pageobjects/OrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/ErrorValidationsTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/ErrorValidationsTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <recent name="rahulshettyacademy" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SubmitOrderTest.orderHistoryTest">
+  <component name="RunManager" selected="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testng.xml">
     <configuration name="C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFrameworkDesign" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -152,9 +148,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testng.xml" />
         <item itemvalue="TestNG.SubmitOrderTest.orderHistoryTest" />
         <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
-        <item itemvalue="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testng.xml" />
         <item itemvalue="TestNG.ErrorValidationsTestCase" />
         <item itemvalue="TestNG.ErrorValidationsTestCase.submitOrder" />
       </list>
@@ -177,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708949988331</updated>
-    </task>
-    <task id="LOCAL-00018" summary="06032024">
-      <created>1709710186811</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1709710186811</updated>
     </task>
     <task id="LOCAL-00019" summary="06032024">
       <created>1709715946690</created>
@@ -521,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710249522478</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="12032024">
+      <created>1710251302661</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1710251302661</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

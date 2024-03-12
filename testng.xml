@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite parallel="tests" name="All Test Suite">
     <test verbose="2" preserve-order="true" name="Submit Order Test">
         <classes>
             <class name="rahulshettyacademy.ErrorValidationsTestCase">
-                <methods>
+                <!--<methods>
                     <include name="submitOrder"/>
                     <include name="ProductErrorValidationTestCase"/>
-                </methods>
+                </methods>-->
             </class>
         </classes>
     </test>
     <test name="Error Validations Test">
         <classes>
             <class name="rahulshettyacademy.SubmitOrderTest">
-                <methods>
-                    <include name="submitOrder"/>
-                </methods>
+                <!--<methods>
+                    <include name="orderHistoryTest"/>
+                </methods>-->
             </class>
         </classes>
     </test>
