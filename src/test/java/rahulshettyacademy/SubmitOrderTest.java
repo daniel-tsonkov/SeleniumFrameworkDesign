@@ -6,7 +6,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import rahulshettyacademy.pageobjects.*;
 
+import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 
 public class SubmitOrderTest extends BaseTest {
     String productName = "ZARA COAT 3";
@@ -35,7 +37,7 @@ public class SubmitOrderTest extends BaseTest {
     }
 
     @DataProvider
-    public Object[][] getData() {
+    public Object[][] getData() throws IOException {
        /* HashMap<String, String> map = new HashMap<>();
         map.put("email", "testmilenatson@test.bg");
         map.put("password", "12345678A1!a");
@@ -46,6 +48,7 @@ public class SubmitOrderTest extends BaseTest {
         map1.put("password", "Iamking@000");
         map1.put("product", "ADIDAS ORIGINAL");*/
 
-        return new Object[][] {{map}, {map1}};
+        List<HashMap<String, String>> data = getJsonDataMap(System.getProperty("user.dir")+"//src//test//java//rahulshettyacademy//data//PurchaseOrder.json");
+        return new Object[][] {{data.get(0)}, {map1}};
     }
 }
