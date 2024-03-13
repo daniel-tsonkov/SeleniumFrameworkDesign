@@ -36,7 +36,7 @@ public class SubmitOrderTest extends BaseTest {
 
     @DataProvider
     public Object[][] getData() {
-        HashMap<String, String> map = new HashMap<>();
+       /* HashMap<String, String> map = new HashMap<>();
         map.put("email", "testmilenatson@test.bg");
         map.put("password", "12345678A1!a");
         map.put("product", "ZARA COAT 3");
@@ -44,7 +44,7 @@ public class SubmitOrderTest extends BaseTest {
         HashMap<String, String> map1 = new HashMap<>();
         map1.put("email", "anshika@gmail.com");
         map1.put("password", "Iamking@000");
-        map1.put("product", "ADIDAS ORIGINAL");
+        map1.put("product", "ADIDAS ORIGINAL");*/
 
         return new Object[][] {{map}, {map1}};
     }
