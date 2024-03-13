@@ -2,6 +2,7 @@ package rahulshettyacademy;
 
 import TestComponents.BaseTest;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import rahulshettyacademy.pageobjects.*;
 
@@ -29,5 +30,10 @@ public class SubmitOrderTest extends BaseTest {
         ProductCatalogue productCatalogue = landingPage.loginApplication("testmilenatson@test.bg", "12345678A1!a");
         OrderPage orderPage = productCatalogue.goToOrdersPade();
         Assert.assertTrue(orderPage.VerifyOrderDisplay(productName));
+    }
+
+    @DataProvider
+    public Object[][] getData() {
+        return new Object[][] {{"testmilenatson@test.bg", "12345678A1!a"}, {"anshika@gmail.com", "Iamking@000"}};
     }
 }
