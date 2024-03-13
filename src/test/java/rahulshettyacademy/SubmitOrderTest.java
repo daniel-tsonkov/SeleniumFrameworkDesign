@@ -8,9 +8,9 @@ import rahulshettyacademy.pageobjects.*;
 
 public class SubmitOrderTest extends BaseTest {
     String productName = "ZARA COAT 3";
-    @Test
-    public void submitOrder() throws InterruptedException {
-        ProductCatalogue productCatalogue = landingPage.loginApplication("testmilenatson@test.bg", "12345678A1!a");
+    @Test(dataProvider = "getData", groups = {"Purchase"})
+    public void submitOrder(String email, String password, String productName) throws InterruptedException {
+        ProductCatalogue productCatalogue = landingPage.loginApplication(email, password);
 
         productCatalogue.addProductToCart(productName);
 
@@ -34,6 +34,6 @@ public class SubmitOrderTest extends BaseTest {
 
     @DataProvider
     public Object[][] getData() {
-        return new Object[][] {{"testmilenatson@test.bg", "12345678A1!a"}, {"anshika@gmail.com", "Iamking@000"}};
+        return new Object[][] {{"testmilenatson@test.bg", "12345678A1!a", "ZARA COAT 3"}, {"anshika@gmail.com", "Iamking@000", "ADIDAS ORIGINAL"}};
     }
 }

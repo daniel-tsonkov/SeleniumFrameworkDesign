@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="12032024">
+      <change afterPath="$PROJECT_DIR$/testSuites/Purchase.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" afterDir="false" />
     </list>
@@ -71,10 +72,20 @@
       <recent name="rahulshettyacademy" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/ErrorValidationTests.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/Purchase.xml">
     <configuration name="C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/ErrorValidationTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFrameworkDesign" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuites/ErrorValidationTests.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/Purchase.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFrameworkDesign" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuites/Purchase.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -86,23 +97,6 @@
       <module name="SeleniumFrameworkDesign" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ErrorValidationsTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumFrameworkDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rahulshettyacademy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rahulshettyacademy" />
-      <option name="MAIN_CLASS_NAME" value="rahulshettyacademy.ErrorValidationsTestCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -147,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/Purchase.xml" />
         <item itemvalue="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/ErrorValidationTests.xml" />
         <item itemvalue="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testng.xml" />
         <item itemvalue="TestNG.SubmitOrderTest.orderHistoryTest" />
         <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
-        <item itemvalue="TestNG.ErrorValidationsTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -172,13 +166,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708949988331</updated>
-    </task>
-    <task id="LOCAL-00022" summary="06032024">
-      <created>1709718058305</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1709718058305</updated>
     </task>
     <task id="LOCAL-00023" summary="06032024">
       <created>1709718074895</created>
@@ -516,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710335951489</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="12032024">
+      <created>1710336900110</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1710336900110</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
