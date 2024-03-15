@@ -1,6 +1,6 @@
 package rahulshettyacademy;
 
-import TestComponents.BaseTest;
+import rahulshettyacademy.TestComponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import rahulshettyacademy.pageobjects.CartPage;
