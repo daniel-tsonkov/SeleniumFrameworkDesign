@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="15032024">
-      <change afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/TestComponents/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/resources/ExtentReporterNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahulshettyacademy/resources/ExtentReporterNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/TestComponents/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/ErrorValidationsTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/ErrorValidationsTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/SubmitOrderTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="15032024" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,13 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708949988331</updated>
-    </task>
-    <task id="LOCAL-00038" summary="08032024">
-      <created>1709896087573</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1709896087573</updated>
     </task>
     <task id="LOCAL-00039" summary="08032024">
       <created>1709896363110</created>
@@ -513,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710493210630</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="15032024">
+      <created>1710495301141</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1710495301141</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
