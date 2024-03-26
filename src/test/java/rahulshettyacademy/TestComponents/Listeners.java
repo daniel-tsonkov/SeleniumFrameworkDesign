@@ -27,12 +27,13 @@ public class Listeners extends  BaseTest implements ITestListener {
     public void onTestFailure(ITestResult result) {
         //test.log(Status.FAIL, "Test Fail");
         test.fail(result.getThrowable());
+        String filePath;
         try {
-            getScreenshot(result.getMethod().getMethodName());
+            filePath = getScreenshot(result.getMethod().getMethodName());
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        test.addScreenCaptureFromPath(null, null);
+        test.addScreenCaptureFromPath(filePath, result.getMethod().getMethodName());
 
         //get screenshot and attach to the report
 
