@@ -7,7 +7,9 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import rahulshettyacademy.resources.ExtentReporterNG;
 
-public class Listeners implements ITestListener {
+import java.io.IOException;
+
+public class Listeners extends  BaseTest implements ITestListener {
     ExtentReports extent = ExtentReporterNG.getReportObject();
     ExtentTest test;
 
@@ -25,6 +27,12 @@ public class Listeners implements ITestListener {
     public void onTestFailure(ITestResult result) {
         //test.log(Status.FAIL, "Test Fail");
         test.fail(result.getThrowable());
+        try {
+            getScreenshot(result.getMethod().getMethodName());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        test.addScreenCaptureFromPath(null, null);
 
         //get screenshot and attach to the report
 

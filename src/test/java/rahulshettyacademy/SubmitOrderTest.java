@@ -40,14 +40,6 @@ public class SubmitOrderTest extends BaseTest {
         Assert.assertTrue(orderPage.VerifyOrderDisplay(productName));
     }
 
-    public String getScreenshot(String testCaseName) throws IOException {
-        TakesScreenshot ts = (TakesScreenshot)driver;
-        File source = ts.getScreenshotAs(OutputType.FILE);
-        File file = new File(System.getProperty("user.dir") + "//reports//" + testCaseName + ".png");
-        FileUtils.copyFile(source, file);
-        return System.getProperty("user.dir") + "//reports//" + testCaseName + ".png";
-    }
-
     @DataProvider
     public Object[][] getData() throws IOException {
         List<HashMap<String, String>> data = getJsonDataMap(System.getProperty("user.dir")+"//src//test//java//rahulshettyacademy//data//PurchaseOrder.json");
