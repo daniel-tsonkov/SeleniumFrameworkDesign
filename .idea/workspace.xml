@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="26032024" />
+    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="26032024">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/ErrorValidationsTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/ErrorValidationsTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/TestComponents/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/TestComponents/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/TestComponents/Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSuites/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSuites/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +74,7 @@
       <recent name="rahulshettyacademy" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/Purchase.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/testng.xml">
     <configuration name="C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/ErrorValidationTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFrameworkDesign" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuites/ErrorValidationTests.xml" />
@@ -82,6 +88,16 @@
     <configuration name="C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/Purchase.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFrameworkDesign" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuites/Purchase.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFrameworkDesign" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuites/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -117,31 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubmitOrderTest.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumFrameworkDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rahulshettyacademy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rahulshettyacademy" />
-      <option name="MAIN_CLASS_NAME" value="rahulshettyacademy.SubmitOrderTest" />
-      <option name="METHOD_NAME" value="submitOrder" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/testng.xml" />
         <item itemvalue="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/Purchase.xml" />
         <item itemvalue="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testSuites/ErrorValidationTests.xml" />
         <item itemvalue="TestNG.C:/Users/dan/IdeaProjects/SeleniumFrameworkDesign/testng.xml" />
         <item itemvalue="TestNG.SubmitOrderTest.orderHistoryTest" />
-        <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -162,13 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708949988331</updated>
-    </task>
-    <task id="LOCAL-00041" summary="11032024">
-      <created>1710166994559</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1710166994559</updated>
     </task>
     <task id="LOCAL-00042" summary="11032024">
       <created>1710167473932</created>
@@ -506,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711455689147</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="26032024">
+      <created>1711455973299</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1711455973299</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
