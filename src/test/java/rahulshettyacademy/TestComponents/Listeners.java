@@ -14,21 +14,23 @@ import java.io.IOException;
 public class Listeners extends  BaseTest implements ITestListener {
     ExtentReports extent = ExtentReporterNG.getReportObject();
     ExtentTest test;
+    ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
 
     @Override
     public void onTestStart(ITestResult result) {
         test = extent.createTest(result.getMethod().getMethodName());
+        extentTest.set(test); //unique thread id(ErrorValidationTest)->test
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        test.log(Status.PASS, "Test Passed");
+        extentTest.get().log(Status.PASS, "Test Passed");
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
         //test.log(Status.FAIL, "Test Fail");
-        test.fail(result.getThrowable());
+        extentTest.get().fail(result.getThrowable());
 
         try {
             driver = (WebDriver) result.getTestClass().getRealClass().getField("driver")
@@ -43,7 +45,7 @@ public class Listeners extends  BaseTest implements ITestListener {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        test.addScreenCaptureFromPath(filePath, result.getMethod().getMethodName());
+        extentTest.get().addScreenCaptureFromPath(filePath, result.getMethod().getMethodName());
         //get screenshot and attach to the report
     }
     @Override
