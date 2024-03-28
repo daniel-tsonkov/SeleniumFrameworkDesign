@@ -3,12 +3,13 @@ package rahulshettyacademy;
 import rahulshettyacademy.TestComponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import rahulshettyacademy.TestComponents.Retry;
 import rahulshettyacademy.pageobjects.CartPage;
 import rahulshettyacademy.pageobjects.ProductCatalogue;
 
 public class ErrorValidationsTestCase extends BaseTest {
     
-    @Test(groups = {"ErrorHandling"})
+    @Test(groups = {"ErrorHandling"}, retryAnalyzer = Retry.class)
     public void LoginErrorValidation() {
         landingPage.loginApplication("testmilenatsoni@test.bg", "12345678A1!ai");
         String errorMessage = landingPage.getErrorMessage();
