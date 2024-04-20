@@ -143,7 +143,7 @@
                 <version>3.2.5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testSuites/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>testSuites/ErrorValidationTests.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
