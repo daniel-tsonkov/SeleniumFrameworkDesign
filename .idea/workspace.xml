@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="28032024">
-      <change afterPath="$PROJECT_DIR$/reports/submitOrder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_26_2024_1_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_26_2024_1_57_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="27b17168-4d4c-4185-bcab-ffc4609582c6" name="Changes" comment="20042024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/LoginErrorValidation.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/LoginErrorValidation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rahulshettyacademy/TestComponents/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708949988331</updated>
-    </task>
-    <task id="LOCAL-00047" summary="11032024">
-      <created>1710170293006</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1710170293006</updated>
     </task>
     <task id="LOCAL-00048" summary="11032024">
       <created>1710171072022</created>
@@ -506,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711623717107</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="20042024">
+      <created>1713605424189</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1713605424189</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +528,8 @@
     <MESSAGE value="15032024" />
     <MESSAGE value="26032024" />
     <MESSAGE value="28032024" />
-    <option name="LAST_COMMIT_MESSAGE" value="28032024" />
+    <MESSAGE value="20042024" />
+    <option name="LAST_COMMIT_MESSAGE" value="20042024" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
